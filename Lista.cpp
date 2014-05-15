@@ -78,14 +78,26 @@ l.agregar(new Lora(var2,var3));
    }
 void Lista::insertar(Animal*animal , int posicion ){
 
-     Animal*temp = inicio;
-        for(int i=0; i<posicion; i++){
+    if(posicion == 0){
 
+    Animal *tmp = animal;
+    tmp->sig = inicio;
+    inicio = tmp;
+    return;
+    }
+     Animal*temp = inicio;
+
+        for(int i= 1; i < posicion; i++){
+
+        if(temp->sig == NULL){
+        temp->sig = animal;
+        return;
+        }
             temp = temp->sig;
         }
 
-        animal->sig = temp->sig;
-        temp->sig = animal;
+        animal-> sig = temp -> sig;
+        temp -> sig = animal;
 
 
 }

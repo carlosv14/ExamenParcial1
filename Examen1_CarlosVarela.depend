@@ -13,7 +13,7 @@
 	<iostream>
 	"Animal.h"
 
-1400185550 source:/home/mendez/Documents/Examen_Casa/Lista.cpp
+1400186844 source:/home/mendez/Documents/Examen_Casa/Lista.cpp
 	"Lista.h"
 
 1400185545 /home/mendez/Documents/Examen_Casa/Lista.h
@@ -34,7 +34,7 @@
 1400182338 source:/home/mendez/Documents/Examen_Casa/Lora.cpp
 	"Lora.h"
 
-1400185550 source:/home/mendez/Documents/Examen_Casa/main.cpp
+1400186858 source:/home/mendez/Documents/Examen_Casa/main.cpp
 	<iostream>
 	"Lista.h"
 	"Perro.h"
