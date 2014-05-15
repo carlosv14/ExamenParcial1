@@ -44,6 +44,7 @@
 	"Canario.h"
 	"Lora.h"
 
+<<<<<<< HEAD
 1400182338 source:/home/mendez/Documents/Examen_Casa/Animal.cpp
 	"Animal.h"
 
@@ -62,12 +63,34 @@
 	"Lista.h"
 
 1400184321 /home/mendez/Documents/Examen_Casa/Lista.h
+=======
+<<<<<<< HEAD
+1400181994 source:c:\users\alefr_000\documents\github\examenparcial1\animal.cpp
+	"Animal.h"
+
+1400181994 c:\users\alefr_000\documents\github\examenparcial1\animal.h
+	<iostream>
+	<fstream>
+
+1400181994 source:c:\users\alefr_000\documents\github\examenparcial1\canario.cpp
+	"Canario.h"
+
+1400181994 c:\users\alefr_000\documents\github\examenparcial1\canario.h
+	<iostream>
+	"Animal.h"
+
+1400183500 source:c:\users\alefr_000\documents\github\examenparcial1\lista.cpp
+	"Lista.h"
+
+1400183464 c:\users\alefr_000\documents\github\examenparcial1\lista.h
+>>>>>>> de8834c85b438946e1c6bdbb1c6202fd23badc5c
 	"Animal.h"
 	"fstream"
 	"Perro.h"
 	"Canario.h"
 	"Lora.h"
 
+<<<<<<< HEAD
 1400182338 /home/mendez/Documents/Examen_Casa/Perro.h
 	<iostream>
 	"Animal.h"
@@ -88,4 +111,58 @@
 	"Perro.h"
 	"Canario.h"
 	"Lora.h"
+=======
+1400181994 c:\users\alefr_000\documents\github\examenparcial1\perro.h
+	<iostream>
+	"Animal.h"
+
+1400181994 c:\users\alefr_000\documents\github\examenparcial1\lora.h
+	<iostream>
+	"Animal.h"
+
+1400181994 source:c:\users\alefr_000\documents\github\examenparcial1\lora.cpp
+	"Lora.h"
+
+1400181994 source:c:\users\alefr_000\documents\github\examenparcial1\perro.cpp
+	"Perro.h"
+=======
+1400182563 source:/home/kelvinosse/Documents/Part2Exam/Animal.cpp
+	"Animal.h"
+
+1400182563 /home/kelvinosse/Documents/Part2Exam/Animal.h
+	<iostream>
+	<fstream>
+
+1400182563 source:/home/kelvinosse/Documents/Part2Exam/Canario.cpp
+	"Canario.h"
+
+1400182563 /home/kelvinosse/Documents/Part2Exam/Canario.h
+	<iostream>
+	"Animal.h"
+
+1400182563 source:/home/kelvinosse/Documents/Part2Exam/Lora.cpp
+	"Lora.h"
+
+1400182563 /home/kelvinosse/Documents/Part2Exam/Lora.h
+	<iostream>
+	"Animal.h"
+
+1400182563 source:/home/kelvinosse/Documents/Part2Exam/Perro.cpp
+	"Perro.h"
+
+1400182563 /home/kelvinosse/Documents/Part2Exam/Perro.h
+	<iostream>
+	"Animal.h"
+
+1400183363 source:/home/kelvinosse/Documents/Part2Exam/Lista.cpp
+	"Lista.h"
+
+1400183330 /home/kelvinosse/Documents/Part2Exam/Lista.h
+	"Animal.h"
+	<fstream>
+	"Perro.h"
+	"Canario.h"
+	"Lora.h"
+>>>>>>> 850aef0fdc8b76f383219be20e616e4277ad4b6e
+>>>>>>> de8834c85b438946e1c6bdbb1c6202fd23badc5c
 
