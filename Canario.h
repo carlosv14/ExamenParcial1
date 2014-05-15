@@ -8,7 +8,6 @@ using namespace std;
 class Canario : public Animal
 {
     public:
-        void volar();
         void rugir();
         Canario(int edad, string nombre);
         virtual ~Canario();

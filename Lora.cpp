@@ -14,7 +14,3 @@ Lora::~Lora()
 {
     //dtor
 }
-
-void Lora::volar(){
-cout<<""<<endl;
-}

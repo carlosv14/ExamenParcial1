@@ -13,7 +13,10 @@ class Lista
         void agregar(Animal* n);
         void imprimir();
         void Guardar();
-        void leer();
+        Animal* getAnimalMasViejo();
+        Animal* getAnimalMasJoven();
+        void insertar(Animal* n,int pos);
+
         virtual ~Lista();
     protected:
     private:

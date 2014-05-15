@@ -44,3 +44,48 @@
 	"Canario.h"
 	"Lora.h"
 
+1400182102 source:/home/cvarela/Desktop/PROGRA3/Examen/Animal.cpp
+	"Animal.h"
+
+1400182102 /home/cvarela/Desktop/PROGRA3/Examen/Animal.h
+	<iostream>
+	<fstream>
+
+1400183193 source:/home/cvarela/Desktop/PROGRA3/Examen/Canario.cpp
+	"Canario.h"
+
+1400183188 /home/cvarela/Desktop/PROGRA3/Examen/Canario.h
+	<iostream>
+	"Animal.h"
+
+1400183228 source:/home/cvarela/Desktop/PROGRA3/Examen/Lora.cpp
+	"Lora.h"
+
+1400183228 /home/cvarela/Desktop/PROGRA3/Examen/Lora.h
+	<iostream>
+	"Animal.h"
+
+1400182102 source:/home/cvarela/Desktop/PROGRA3/Examen/Perro.cpp
+	"Perro.h"
+
+1400182102 /home/cvarela/Desktop/PROGRA3/Examen/Perro.h
+	<iostream>
+	"Animal.h"
+
+1400186760 source:/home/cvarela/Desktop/PROGRA3/Examen/Lista.cpp
+	"Lista.h"
+
+1400186297 /home/cvarela/Desktop/PROGRA3/Examen/Lista.h
+	"Animal.h"
+	"fstream"
+	"Perro.h"
+	"Canario.h"
+	"Lora.h"
+
+1400186427 source:/home/cvarela/Desktop/PROGRA3/Examen/main.cpp
+	<iostream>
+	"Lista.h"
+	"Perro.h"
+	"Canario.h"
+	"Lora.h"
+
