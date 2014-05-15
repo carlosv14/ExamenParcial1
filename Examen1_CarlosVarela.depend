@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1400178546 source:/home/cvarela/Desktop/PROGRA3/Examen1_CarlosVarela/Animal.cpp
+	"Animal.h"
+
+1400178546 /home/cvarela/Desktop/PROGRA3/Examen1_CarlosVarela/Animal.h
+	<iostream>
+	<fstream>
+
+1400176902 source:/home/cvarela/Desktop/PROGRA3/Examen1_CarlosVarela/Canario.cpp
+	"Canario.h"
+
+1400177475 /home/cvarela/Desktop/PROGRA3/Examen1_CarlosVarela/Canario.h
+	<iostream>
+	"Animal.h"
+
+1400179236 source:/home/cvarela/Desktop/PROGRA3/Examen1_CarlosVarela/Lista.cpp
+	"Lista.h"
+
+1400178733 /home/cvarela/Desktop/PROGRA3/Examen1_CarlosVarela/Lista.h
+	"Animal.h"
+	"fstream"
+	"Perro.h"
+	"Canario.h"
+	"Lora.h"
+
+1400177812 /home/cvarela/Desktop/PROGRA3/Examen1_CarlosVarela/Perro.h
+	<iostream>
+	"Animal.h"
+
+1400177475 /home/cvarela/Desktop/PROGRA3/Examen1_CarlosVarela/Lora.h
+	<iostream>
+	"Animal.h"
+
+1400176901 source:/home/cvarela/Desktop/PROGRA3/Examen1_CarlosVarela/Lora.cpp
+	"Lora.h"
+
+1400177337 source:/home/cvarela/Desktop/PROGRA3/Examen1_CarlosVarela/Perro.cpp
+	"Perro.h"
+
+1400179270 source:/home/cvarela/Desktop/PROGRA3/Examen1_CarlosVarela/main.cpp
+	<iostream>
+	"Lista.h"
+	"Perro.h"
+	"Canario.h"
+	"Lora.h"
+
