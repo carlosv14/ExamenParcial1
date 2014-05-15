@@ -21,3 +21,4 @@
 *.app
 bin/
 obj/
+*.depend
