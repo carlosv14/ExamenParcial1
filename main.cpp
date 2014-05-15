@@ -9,8 +9,11 @@ int main()
 {
     Lista l;
     l.agregar(new Perro(5,"hola"));
+    l.agregar(new Canario(52, "Elsa Capuntas"));
     l.imprimir();
-    l.Guardar();
+    l.insertar(new Lora(30, "Tuhermana"), 0);
+    l.imprimir();
+
 
 
     return 0;
