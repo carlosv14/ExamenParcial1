@@ -22,6 +22,10 @@ hola
 Perro
 5
 hola
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 56168239926f9b9d797e37bd3fb1f3de4d589cf7
 Perro
 5
 hola
@@ -30,6 +34,7 @@ Perro
 hola
 Perro
 5
+<<<<<<< HEAD
 hola
 Perro
 5
@@ -277,3 +282,26 @@ tweetie
 Lora
 55
 Paco
+=======
+dogui
+Perro
+5
+hola
+Perro
+5
+dogui
+Perro
+8
+hola
+Perro
+5
+dogui
+Perro
+8
+hola
+Perro
+5
+dogui
+=======
+>>>>>>> de8834c85b438946e1c6bdbb1c6202fd23badc5c
+>>>>>>> 56168239926f9b9d797e37bd3fb1f3de4d589cf7
