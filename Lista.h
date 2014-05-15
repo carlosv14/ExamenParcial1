@@ -1,7 +1,7 @@
 #ifndef LISTA_H
 #define LISTA_H
 #include "Animal.h"
-#include "fstream"
+#include <fstream>
 #include "Perro.h"
 #include "Canario.h"
 #include "Lora.h"
@@ -13,8 +13,12 @@ class Lista
         void agregar(Animal* n);
         void imprimir();
         void Guardar();
+
         void leer();
         void Borrar(string nom);
+
+        void insertar(Animal* animal , int posicion);
+
         virtual ~Lista();
     protected:
     private:

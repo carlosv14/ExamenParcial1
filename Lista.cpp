@@ -59,6 +59,19 @@ l.agregar(new Lora(var2,var3));
 }
 }
 
+void Lista::insertar(Animal*animal , int posicion ){
+
+     Animal*temp = inicio;
+        for(int i=0; i<posicion; i++){
+
+            temp = temp->sig;
+        }
+
+        animal->sig = temp->sig;
+        temp->sig = animal;
+
+
+}
 Lista::~Lista()
 {
     //dtor
