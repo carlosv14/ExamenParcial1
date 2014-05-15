@@ -44,3 +44,48 @@
 	"Canario.h"
 	"Lora.h"
 
+1400182338 source:/home/mendez/Documents/Examen_Casa/Animal.cpp
+	"Animal.h"
+
+1400182338 /home/mendez/Documents/Examen_Casa/Animal.h
+	<iostream>
+	<fstream>
+
+1400182338 source:/home/mendez/Documents/Examen_Casa/Canario.cpp
+	"Canario.h"
+
+1400182338 /home/mendez/Documents/Examen_Casa/Canario.h
+	<iostream>
+	"Animal.h"
+
+1400185044 source:/home/mendez/Documents/Examen_Casa/Lista.cpp
+	"Lista.h"
+
+1400184321 /home/mendez/Documents/Examen_Casa/Lista.h
+	"Animal.h"
+	"fstream"
+	"Perro.h"
+	"Canario.h"
+	"Lora.h"
+
+1400182338 /home/mendez/Documents/Examen_Casa/Perro.h
+	<iostream>
+	"Animal.h"
+
+1400182338 /home/mendez/Documents/Examen_Casa/Lora.h
+	<iostream>
+	"Animal.h"
+
+1400182338 source:/home/mendez/Documents/Examen_Casa/Lora.cpp
+	"Lora.h"
+
+1400182338 source:/home/mendez/Documents/Examen_Casa/Perro.cpp
+	"Perro.h"
+
+1400185044 source:/home/mendez/Documents/Examen_Casa/main.cpp
+	<iostream>
+	"Lista.h"
+	"Perro.h"
+	"Canario.h"
+	"Lora.h"
+

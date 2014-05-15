@@ -8,12 +8,12 @@ using namespace std;
 int main()
 {
     Lista l;
-    l.agregar(new Perro(5,"hola"));
+    l.agregar(new Perro(8,"hola"));
+    l.agregar(new Perro(5,"dogui"));
     l.imprimir();
+    cout<< l.buscar("hola")->edad;
     l.Guardar();
+
     return 0;
 }
 
-//Commit de Ahmed
-//Commmit de  Alejandro
-//Commit de Oscar

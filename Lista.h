@@ -14,6 +14,7 @@ class Lista
         void imprimir();
         void Guardar();
         void leer();
+        Animal* buscar(string nombre);
         virtual ~Lista();
     protected:
     private:
