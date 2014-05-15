@@ -44,7 +44,8 @@
 	"Canario.h"
 	"Lora.h"
 
-<<<<<<< HEAD
+1400179270 D
+
 1400181994 source:c:\users\alefr_000\documents\github\examenparcial1\animal.cpp
 	"Animal.h"
 
@@ -82,7 +83,9 @@
 
 1400181994 source:c:\users\alefr_000\documents\github\examenparcial1\perro.cpp
 	"Perro.h"
-=======
+
+1400181994 
+
 1400182563 source:/home/kelvinosse/Documents/Part2Exam/Animal.cpp
 	"Animal.h"
 
@@ -111,14 +114,22 @@
 	<iostream>
 	"Animal.h"
 
-1400183363 source:/home/kelvinosse/Documents/Part2Exam/Lista.cpp
+1400185876 source:/home/kelvinosse/Documents/Part2Exam/Lista.cpp
 	"Lista.h"
 
-1400183330 /home/kelvinosse/Documents/Part2Exam/Lista.h
+1400184361 /home/kelvinosse/Documents/Part2Exam/Lista.h
 	"Animal.h"
 	<fstream>
 	"Perro.h"
 	"Canario.h"
 	"Lora.h"
->>>>>>> 850aef0fdc8b76f383219be20e616e4277ad4b6e
+
+1400183330 aef0fdc8b76f383219be20e616e4277ad4b6e
+
+1400185839 source:/home/kelvinosse/Documents/Part2Exam/main.cpp
+	<iostream>
+	"Lista.h"
+	"Perro.h"
+	"Canario.h"
+	"Lora.h"
 
