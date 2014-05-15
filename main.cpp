@@ -9,10 +9,9 @@ int main()
 {
     Lista l;
     l.agregar(new Perro(5,"hola"));
-    l.agregar(new Perro(5,"adios"));
+    l.agregar(new Perro(3,"adios"));
     l.imprimir();
-    l.Borrar("hola");
-    l.imprimir();
+    cout<<"Edad promedio es :"<<l.promedio()<<endl;
 
     return 0;
 }

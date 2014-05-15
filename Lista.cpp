@@ -111,3 +111,23 @@ void Lista::Borrar(string nom){
             }
         }
 }
+
+double Lista::promedio(){
+    if(inicio==NULL){
+        return 0 ;
+    }
+    double suma=0;
+    double cant=0;
+
+    Animal *tmp =inicio;
+
+    while(tmp!=NULL){
+        suma+=tmp->edad;
+        cant+=1;
+        tmp= tmp->sig;
+    }
+
+    return (suma/cant);
+
+
+}
