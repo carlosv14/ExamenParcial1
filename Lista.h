@@ -13,13 +13,11 @@ class Lista
         void agregar(Animal* n);
         void imprimir();
         void Guardar();
-
         void leer();
         void Borrar(string nom);
-
         void insertar(Animal* animal , int posicion);
-
         Animal* buscar(string nombre);
+        double promedio();
 
         virtual ~Lista();
     protected:
