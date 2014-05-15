@@ -59,6 +59,23 @@ l.agregar(new Lora(var2,var3));
 }
 }
 
+ Animal* Lista::buscar(string nombre){
+
+    if (inicio == NULL)
+        {
+            return NULL;
+        }
+     Animal* temp = inicio;
+
+     while(temp != NULL){
+        if(temp-> nombre == nombre){
+            return temp;
+        }
+            temp = temp ->sig;
+            cout<< "Animal no Existe";
+            return NULL;
+     }
+   }
 void Lista::insertar(Animal*animal , int posicion ){
 
      Animal*temp = inicio;

@@ -19,6 +19,8 @@ class Lista
 
         void insertar(Animal* animal , int posicion);
 
+        Animal* buscar(string nombre);
+
         virtual ~Lista();
     protected:
     private:

@@ -18,7 +18,3 @@ int main()
     return 0;
 }
 
-//Commit de Ahmed
-//Commmit de  Alejandro
-//Commit de Oscar
-//Commit de Kelvin
