@@ -1,32 +1,33 @@
 # depslib dependency file v1.0
-1400182563 source:/home/kelvinosse/Documents/Part2Exam/Animal.cpp
+1400187614 source:/home/kelvinosse/Documents/Part2Exam/Animal.cpp
 	"Animal.h"
 
-1400182563 /home/kelvinosse/Documents/Part2Exam/Animal.h
+1400187614 /home/kelvinosse/Documents/Part2Exam/Animal.h
 	<iostream>
 	<fstream>
 
-1400182563 source:/home/kelvinosse/Documents/Part2Exam/Canario.cpp
+1400187614 source:/home/kelvinosse/Documents/Part2Exam/Canario.cpp
 	"Canario.h"
 
-1400182563 /home/kelvinosse/Documents/Part2Exam/Canario.h
+1400187614 /home/kelvinosse/Documents/Part2Exam/Canario.h
 	<iostream>
 	"Animal.h"
 
-<<<<<<< HEAD
+1400183228 D
+
 1400186844 source:/home/mendez/Documents/Examen_Casa/Lista.cpp
-=======
-1400182563 source:/home/kelvinosse/Documents/Part2Exam/Lora.cpp
+
+1400187614 source:/home/kelvinosse/Documents/Part2Exam/Lora.cpp
 	"Lora.h"
 
-1400182563 /home/kelvinosse/Documents/Part2Exam/Lora.h
+1400187614 /home/kelvinosse/Documents/Part2Exam/Lora.h
 	<iostream>
 	"Animal.h"
 
-1400182563 source:/home/kelvinosse/Documents/Part2Exam/Perro.cpp
+1400187614 source:/home/kelvinosse/Documents/Part2Exam/Perro.cpp
 	"Perro.h"
 
-1400182563 /home/kelvinosse/Documents/Part2Exam/Perro.h
+1400187614 /home/kelvinosse/Documents/Part2Exam/Perro.h
 	<iostream>
 	"Animal.h"
 
@@ -59,8 +60,11 @@
 	"Animal.h"
 
 1400186087 source:c:\users\alefr_000\documents\github\examenparcial1\lista.cpp
->>>>>>> 2a6b1d273209e00af1fd2c6554c2c19f19b1c561
+
+1400182102 b1d273209e00af1fd2c6554c2c19f19b1c561
 	"Lista.h"
+	<iostream>
+	"Animal.h"
 
 1400186087 c:\users\alefr_000\documents\github\examenparcial1\lista.h
 	"Animal.h"
@@ -86,9 +90,8 @@
 1400183228 source:/home/cvarela/Desktop/PROGRA3/Examen/Lora.cpp
 	"Lora.h"
 
-<<<<<<< HEAD
 1400186858 source:/home/mendez/Documents/Examen_Casa/main.cpp
-=======
+
 1400183228 /home/cvarela/Desktop/PROGRA3/Examen/Lora.h
 	<iostream>
 	"Animal.h"
@@ -97,9 +100,6 @@
 	"Perro.h"
 
 1400182102 /home/cvarela/Desktop/PROGRA3/Examen/Perro.h
->>>>>>> 2a6b1d273209e00af1fd2c6554c2c19f19b1c561
-	<iostream>
-	"Animal.h"
 
 1400186760 source:/home/cvarela/Desktop/PROGRA3/Examen/Lista.cpp
 	"Lista.h"
@@ -112,6 +112,23 @@
 	"Lora.h"
 
 1400186427 source:/home/cvarela/Desktop/PROGRA3/Examen/main.cpp
+	<iostream>
+	"Lista.h"
+	"Perro.h"
+	"Canario.h"
+	"Lora.h"
+
+1400187868 source:/home/kelvinosse/Documents/Part2Exam/Lista.cpp
+	"Lista.h"
+
+1400187614 /home/kelvinosse/Documents/Part2Exam/Lista.h
+	"Animal.h"
+	<fstream>
+	"Perro.h"
+	"Canario.h"
+	"Lora.h"
+
+1400187614 source:/home/kelvinosse/Documents/Part2Exam/main.cpp
 	<iostream>
 	"Lista.h"
 	"Perro.h"

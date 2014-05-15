@@ -83,24 +83,7 @@ tmp = tmp->sig;
     return n;
 
 }
-void Lista ::insertar(Animal *n, int pos){
-        Animal*temp = inicio;
-        Animal* np = NULL;
-        if(pos==0){
-          np = inicio;
-          inicio = n;
-          inicio->sig =np;
 
-        }
-        for(int i=0; i<pos-1;i++)
-        {
-            temp = temp->sig;
-
-        }
-        n->sig = temp->sig;
-        temp->sig=n;
-
-    }
 
 
 Lista::~Lista()
@@ -150,10 +133,7 @@ void Lista::insertar(Animal*animal , int posicion ){
 
 
 }
-Lista::~Lista()
-{
-    //dtor
-}
+
 
 void Lista::Borrar(string nom){
   if(inicio != NULL){
