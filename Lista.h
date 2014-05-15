@@ -14,6 +14,7 @@ class Lista
         void imprimir();
         void Guardar();
         void leer();
+        void Borrar(string nom);
         virtual ~Lista();
     protected:
     private:

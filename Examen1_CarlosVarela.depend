@@ -44,3 +44,41 @@
 	"Canario.h"
 	"Lora.h"
 
+1400181994 source:c:\users\alefr_000\documents\github\examenparcial1\animal.cpp
+	"Animal.h"
+
+1400181994 c:\users\alefr_000\documents\github\examenparcial1\animal.h
+	<iostream>
+	<fstream>
+
+1400181994 source:c:\users\alefr_000\documents\github\examenparcial1\canario.cpp
+	"Canario.h"
+
+1400181994 c:\users\alefr_000\documents\github\examenparcial1\canario.h
+	<iostream>
+	"Animal.h"
+
+1400183500 source:c:\users\alefr_000\documents\github\examenparcial1\lista.cpp
+	"Lista.h"
+
+1400183464 c:\users\alefr_000\documents\github\examenparcial1\lista.h
+	"Animal.h"
+	"fstream"
+	"Perro.h"
+	"Canario.h"
+	"Lora.h"
+
+1400181994 c:\users\alefr_000\documents\github\examenparcial1\perro.h
+	<iostream>
+	"Animal.h"
+
+1400181994 c:\users\alefr_000\documents\github\examenparcial1\lora.h
+	<iostream>
+	"Animal.h"
+
+1400181994 source:c:\users\alefr_000\documents\github\examenparcial1\lora.cpp
+	"Lora.h"
+
+1400181994 source:c:\users\alefr_000\documents\github\examenparcial1\perro.cpp
+	"Perro.h"
+

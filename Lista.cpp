@@ -63,3 +63,21 @@ Lista::~Lista()
 {
     //dtor
 }
+
+void Lista::Borrar(string nom){
+  if(inicio != NULL){
+            if(inicio->nombre==nom){
+                inicio = inicio->sig;
+            }
+            else{
+                Animal*tmp = inicio;
+                while(tmp->sig!= NULL){
+                    if(tmp->sig->nombre==nom){
+                        tmp->sig= tmp->sig->sig;
+                    }
+                    else
+                        tmp = tmp->sig;
+                }
+            }
+        }
+}

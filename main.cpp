@@ -9,8 +9,10 @@ int main()
 {
     Lista l;
     l.agregar(new Perro(5,"hola"));
+    l.agregar(new Perro(5,"adios"));
     l.imprimir();
-    l.Guardar();
+    l.Borrar("hola");
+    l.imprimir();
     return 0;
 }
 
