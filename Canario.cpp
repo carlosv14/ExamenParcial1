@@ -12,9 +12,6 @@ cout<<"tweet, tweet"<<endl;
 
 }
 
-void Canario::volar(){
-cout<<""<<endl;
-}
 Canario::~Canario()
 {
     //dtor

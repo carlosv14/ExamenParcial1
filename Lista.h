@@ -14,12 +14,14 @@ class Lista
         void imprimir();
         void Guardar();
 
+        Animal* getAnimalMasViejo();
+        Animal* getAnimalMasJoven();
+
         void leer();
         void Borrar(string nom);
-
         void insertar(Animal* animal , int posicion);
-
         Animal* buscar(string nombre);
+        double promedio();
 
         virtual ~Lista();
     protected:

@@ -7,7 +7,6 @@ using namespace std;
 class Lora : public Animal
 {
     public:
-        void volar();
         void rugir();
 
         Lora(int edad, string nombre);

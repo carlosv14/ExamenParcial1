@@ -2,61 +2,110 @@
 
 Lista::Lista()
 {
-   inicio =NULL;
+    inicio =NULL;
 }
 
-void Lista::agregar(Animal * n){
-if(inicio!=NULL){
-Animal *temp;
-for(temp = inicio; temp->sig!=NULL ; temp=temp->sig);
-
-    temp->sig=n;
-
-}else{
-    inicio = n;
-
-}
-
-}
-
-void Lista:: imprimir(){
-if(inicio!=NULL){
-for(Animal * temp = inicio; temp!=NULL; temp = temp->sig)
+void Lista::agregar(Animal * n)
 {
-    temp->imprimir();
-    cout<<"************"<<endl;
-}
-}
-else{
-cout<<"Lista Vacia"<<endl;
+    if(inicio!=NULL)
+    {
+        Animal *temp;
+        for(temp = inicio; temp->sig!=NULL ; temp=temp->sig);
+
+        temp->sig=n;
+
+    }
+    else
+    {
+        inicio = n;
+
+    }
 
 }
-}
-void Lista:: Guardar(){
-for(Animal * temp = inicio; temp!=NULL; temp = temp->sig)
+
+void Lista:: imprimir()
 {
-    temp->guardarDatos();
+    if(inicio!=NULL)
+    {
+        for(Animal * temp = inicio; temp!=NULL; temp = temp->sig)
+        {
+            temp->imprimir();
+            cout<<"************"<<endl;
+        }
+    }
+    else
+    {
+        cout<<"Lista Vacia"<<endl;
+
+    }
+}
+void Lista:: Guardar()
+{
+    for(Animal * temp = inicio; temp!=NULL; temp = temp->sig)
+    {
+        temp->guardarDatos();
+
+    }
 
 }
 
+Animal* Lista::getAnimalMasViejo()
+{
+    if(inicio == NULL){
+    return NULL;
+    }
+    Animal * tmp = inicio;
+    Animal* n = tmp;
+    while(tmp!=NULL){
+        if(tmp->edad>n->edad)
+{
+    n = tmp;
 }
+tmp = tmp->sig;
+    }
+    return n;
 
-void Lista::leer(){
-ifstream leo("Animales");
-string var1;
-int var2;
-string var3;
-Lista l;
-leo>>var1;
-leo>>var2;
-leo>>var3;
-if(var1 == "Perro"){
- l.agregar(new Perro(var2,var3));
-}else if(var1 == "Canario"){
-l.agregar(new Canario(var2,var3));
-}else{
-l.agregar(new Lora(var2,var3));
 }
+Animal* Lista::getAnimalMasJoven()
+{
+    if(inicio == NULL){
+    return NULL;
+    }
+    Animal * tmp = inicio;
+    Animal* n = tmp;
+    while(tmp!=NULL){
+        if(tmp->edad<n->edad)
+{
+    n = tmp;
+}
+tmp = tmp->sig;
+    }
+    return n;
+
+}
+void Lista ::insertar(Animal *n, int pos){
+        Animal*temp = inicio;
+        Animal* np = NULL;
+        if(pos==0){
+          np = inicio;
+          inicio = n;
+          inicio->sig =np;
+
+        }
+        for(int i=0; i<pos-1;i++)
+        {
+            temp = temp->sig;
+
+        }
+        n->sig = temp->sig;
+        temp->sig=n;
+
+    }
+
+
+Lista::~Lista()
+{
+    //dtor
 }
 
  Animal* Lista::buscar(string nombre){
@@ -122,4 +171,24 @@ void Lista::Borrar(string nom){
                 }
             }
         }
+}
+
+double Lista::promedio(){
+    if(inicio==NULL){
+        return 0 ;
+    }
+    double suma=0;
+    double cant=0;
+
+    Animal *tmp =inicio;
+
+    while(tmp!=NULL){
+        suma+=tmp->edad;
+        cant+=1;
+        tmp= tmp->sig;
+    }
+
+    return (suma/cant);
+
+
 }
