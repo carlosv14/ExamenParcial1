@@ -1,50 +1,4 @@
 # depslib dependency file v1.0
-1400178546 source:/home/cvarela/Desktop/PROGRA3/Examen1_CarlosVarela/Animal.cpp
-	"Animal.h"
-
-1400178546 /home/cvarela/Desktop/PROGRA3/Examen1_CarlosVarela/Animal.h
-	<iostream>
-	<fstream>
-
-1400176902 source:/home/cvarela/Desktop/PROGRA3/Examen1_CarlosVarela/Canario.cpp
-	"Canario.h"
-
-1400177475 /home/cvarela/Desktop/PROGRA3/Examen1_CarlosVarela/Canario.h
-	<iostream>
-	"Animal.h"
-
-1400179236 source:/home/cvarela/Desktop/PROGRA3/Examen1_CarlosVarela/Lista.cpp
-	"Lista.h"
-
-1400178733 /home/cvarela/Desktop/PROGRA3/Examen1_CarlosVarela/Lista.h
-	"Animal.h"
-	"fstream"
-	"Perro.h"
-	"Canario.h"
-	"Lora.h"
-
-1400177812 /home/cvarela/Desktop/PROGRA3/Examen1_CarlosVarela/Perro.h
-	<iostream>
-	"Animal.h"
-
-1400177475 /home/cvarela/Desktop/PROGRA3/Examen1_CarlosVarela/Lora.h
-	<iostream>
-	"Animal.h"
-
-1400176901 source:/home/cvarela/Desktop/PROGRA3/Examen1_CarlosVarela/Lora.cpp
-	"Lora.h"
-
-1400177337 source:/home/cvarela/Desktop/PROGRA3/Examen1_CarlosVarela/Perro.cpp
-	"Perro.h"
-
-1400179270 source:/home/cvarela/Desktop/PROGRA3/Examen1_CarlosVarela/main.cpp
-	<iostream>
-	"Lista.h"
-	"Perro.h"
-	"Canario.h"
-	"Lora.h"
-
-<<<<<<< HEAD
 1400182338 source:/home/mendez/Documents/Examen_Casa/Animal.cpp
 	"Animal.h"
 
@@ -59,38 +13,16 @@
 	<iostream>
 	"Animal.h"
 
-1400185044 source:/home/mendez/Documents/Examen_Casa/Lista.cpp
+1400185550 source:/home/mendez/Documents/Examen_Casa/Lista.cpp
 	"Lista.h"
 
-1400184321 /home/mendez/Documents/Examen_Casa/Lista.h
-=======
-<<<<<<< HEAD
-1400181994 source:c:\users\alefr_000\documents\github\examenparcial1\animal.cpp
+1400185545 /home/mendez/Documents/Examen_Casa/Lista.h
 	"Animal.h"
-
-1400181994 c:\users\alefr_000\documents\github\examenparcial1\animal.h
-	<iostream>
 	<fstream>
-
-1400181994 source:c:\users\alefr_000\documents\github\examenparcial1\canario.cpp
-	"Canario.h"
-
-1400181994 c:\users\alefr_000\documents\github\examenparcial1\canario.h
-	<iostream>
-	"Animal.h"
-
-1400183500 source:c:\users\alefr_000\documents\github\examenparcial1\lista.cpp
-	"Lista.h"
-
-1400183464 c:\users\alefr_000\documents\github\examenparcial1\lista.h
->>>>>>> de8834c85b438946e1c6bdbb1c6202fd23badc5c
-	"Animal.h"
-	"fstream"
 	"Perro.h"
 	"Canario.h"
 	"Lora.h"
 
-<<<<<<< HEAD
 1400182338 /home/mendez/Documents/Examen_Casa/Perro.h
 	<iostream>
 	"Animal.h"
@@ -102,67 +34,13 @@
 1400182338 source:/home/mendez/Documents/Examen_Casa/Lora.cpp
 	"Lora.h"
 
+1400185550 source:/home/mendez/Documents/Examen_Casa/main.cpp
+	<iostream>
+	"Lista.h"
+	"Perro.h"
+	"Canario.h"
+	"Lora.h"
+
 1400182338 source:/home/mendez/Documents/Examen_Casa/Perro.cpp
 	"Perro.h"
-
-1400185044 source:/home/mendez/Documents/Examen_Casa/main.cpp
-	<iostream>
-	"Lista.h"
-	"Perro.h"
-	"Canario.h"
-	"Lora.h"
-=======
-1400181994 c:\users\alefr_000\documents\github\examenparcial1\perro.h
-	<iostream>
-	"Animal.h"
-
-1400181994 c:\users\alefr_000\documents\github\examenparcial1\lora.h
-	<iostream>
-	"Animal.h"
-
-1400181994 source:c:\users\alefr_000\documents\github\examenparcial1\lora.cpp
-	"Lora.h"
-
-1400181994 source:c:\users\alefr_000\documents\github\examenparcial1\perro.cpp
-	"Perro.h"
-=======
-1400182563 source:/home/kelvinosse/Documents/Part2Exam/Animal.cpp
-	"Animal.h"
-
-1400182563 /home/kelvinosse/Documents/Part2Exam/Animal.h
-	<iostream>
-	<fstream>
-
-1400182563 source:/home/kelvinosse/Documents/Part2Exam/Canario.cpp
-	"Canario.h"
-
-1400182563 /home/kelvinosse/Documents/Part2Exam/Canario.h
-	<iostream>
-	"Animal.h"
-
-1400182563 source:/home/kelvinosse/Documents/Part2Exam/Lora.cpp
-	"Lora.h"
-
-1400182563 /home/kelvinosse/Documents/Part2Exam/Lora.h
-	<iostream>
-	"Animal.h"
-
-1400182563 source:/home/kelvinosse/Documents/Part2Exam/Perro.cpp
-	"Perro.h"
-
-1400182563 /home/kelvinosse/Documents/Part2Exam/Perro.h
-	<iostream>
-	"Animal.h"
-
-1400183363 source:/home/kelvinosse/Documents/Part2Exam/Lista.cpp
-	"Lista.h"
-
-1400183330 /home/kelvinosse/Documents/Part2Exam/Lista.h
-	"Animal.h"
-	<fstream>
-	"Perro.h"
-	"Canario.h"
-	"Lora.h"
->>>>>>> 850aef0fdc8b76f383219be20e616e4277ad4b6e
->>>>>>> de8834c85b438946e1c6bdbb1c6202fd23badc5c
 

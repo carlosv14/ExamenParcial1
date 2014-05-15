@@ -13,17 +13,14 @@ class Lista
         void agregar(Animal* n);
         void imprimir();
         void Guardar();
-<<<<<<< HEAD
-        void leer();
-        Animal* buscar(string nombre);
-=======
 
         void leer();
         void Borrar(string nom);
 
         void insertar(Animal* animal , int posicion);
 
->>>>>>> de8834c85b438946e1c6bdbb1c6202fd23badc5c
+        Animal* buscar(string nombre);
+
         virtual ~Lista();
     protected:
     private:

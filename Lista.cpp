@@ -59,7 +59,6 @@ l.agregar(new Lora(var2,var3));
 }
 }
 
-<<<<<<< HEAD
  Animal* Lista::buscar(string nombre){
 
     if (inicio == NULL)
@@ -77,7 +76,6 @@ l.agregar(new Lora(var2,var3));
             return NULL;
      }
    }
-=======
 void Lista::insertar(Animal*animal , int posicion ){
 
      Animal*temp = inicio;
@@ -91,7 +89,6 @@ void Lista::insertar(Animal*animal , int posicion ){
 
 
 }
->>>>>>> de8834c85b438946e1c6bdbb1c6202fd23badc5c
 Lista::~Lista()
 {
     //dtor
