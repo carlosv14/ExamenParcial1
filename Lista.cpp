@@ -91,22 +91,27 @@ Lista::~Lista()
     //dtor
 }
 
- Animal* Lista::buscar(string nombre){
+ Animal* Lista::buscar(string nom){
+     if(inicio != NULL){
+            if(inicio->nombre==nom){
+                return inicio;
+            }
+            else{
+                Animal*tmp = inicio;
+                while(tmp->sig!= NULL){
+                    if(tmp->sig->nombre==nom){
+                        return tmp->sig;
+                    }
+                    else
+                        tmp = tmp->sig;
+                }
 
-    if (inicio == NULL)
-        {
-            return NULL;
+            }
         }
-     Animal* temp = inicio;
 
-     while(temp != NULL){
-        if(temp-> nombre == nombre){
-            return temp;
-        }
-            temp = temp ->sig;
-            cout<< "Animal no Existe";
-            return NULL;
-     }
+        return NULL;
+
+
    }
 void Lista::insertar(Animal*animal , int posicion ){
 
@@ -133,7 +138,6 @@ void Lista::insertar(Animal*animal , int posicion ){
 
 
 }
-
 
 void Lista::Borrar(string nom){
   if(inicio != NULL){

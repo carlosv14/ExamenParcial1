@@ -38,17 +38,17 @@
 	<iostream>
 	<fstream>
 
-1400181994 source:c:\users\alefr_000\documents\github\examenparcial1\canario.cpp
+1400187181 source:c:\users\alefr_000\documents\github\examenparcial1\canario.cpp
 	"Canario.h"
 
-1400181994 c:\users\alefr_000\documents\github\examenparcial1\canario.h
+1400187181 c:\users\alefr_000\documents\github\examenparcial1\canario.h
 	<iostream>
 	"Animal.h"
 
-1400181994 source:c:\users\alefr_000\documents\github\examenparcial1\lora.cpp
+1400187181 source:c:\users\alefr_000\documents\github\examenparcial1\lora.cpp
 	"Lora.h"
 
-1400181994 c:\users\alefr_000\documents\github\examenparcial1\lora.h
+1400187181 c:\users\alefr_000\documents\github\examenparcial1\lora.h
 	<iostream>
 	"Animal.h"
 
@@ -59,14 +59,15 @@
 	<iostream>
 	"Animal.h"
 
-1400186087 source:c:\users\alefr_000\documents\github\examenparcial1\lista.cpp
+1400608560 source:c:\users\alefr_000\documents\github\examenparcial1\lista.cpp
+	"Lista.h"
 
 1400182102 b1d273209e00af1fd2c6554c2c19f19b1c561
 	"Lista.h"
 	<iostream>
 	"Animal.h"
 
-1400186087 c:\users\alefr_000\documents\github\examenparcial1\lista.h
+1400187181 c:\users\alefr_000\documents\github\examenparcial1\lista.h
 	"Animal.h"
 	<fstream>
 	"Perro.h"
@@ -129,6 +130,13 @@
 	"Lora.h"
 
 1400187614 source:/home/kelvinosse/Documents/Part2Exam/main.cpp
+	<iostream>
+	"Lista.h"
+	"Perro.h"
+	"Canario.h"
+	"Lora.h"
+
+1400608393 source:c:\users\alefr_000\documents\github\examenparcial1\main.cpp
 	<iostream>
 	"Lista.h"
 	"Perro.h"

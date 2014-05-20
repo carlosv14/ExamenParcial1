@@ -14,10 +14,7 @@ int main()
     l.agregar(new Perro(8,"valemadre"));
     l.insertar(new Lora(4,"blu"),9);
 
-
-
-
-    l.imprimir();
+    cout<<l.buscar("adios")->edad<<endl;
 
     return 0;
 }
